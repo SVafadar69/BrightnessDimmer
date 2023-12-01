@@ -92,8 +92,5 @@ while True:
     # Unblock the keys
     unlock_keys()
 
-    # Stop the background music
-    os.system("taskkill /im wmplayer.exe /f")  # Terminate Windows Media Player process
-
     # Wait for a few seconds before starting the next break interval
     time.sleep(5)
