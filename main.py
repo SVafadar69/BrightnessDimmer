@@ -1,6 +1,8 @@
 import ctypes
+import pywintypes
 import time
 import keyboard
+from keyboard import block_key
 import os
 from playsound import playsound
 import screen_brightness_control as sbc
